@@ -1,0 +1,51 @@
+.gallery-experts-container{
+    background-color: var(--primary-green);
+    padding-right:135px;
+    padding-left:135px;
+}
+
+.gallery-heading{
+    padding-top: 22px;
+    padding-bottom: 18.4px;
+}
+
+.gallery-experts-top {
+   padding-top: 36px;
+   padding-bottom: 36px;
+   background: transparent;
+}
+
+.gallery-experts{
+  
+}
+
+.gallery-experts-info{
+    margin-left: 8.8px;
+    margin-top: 17.6px;
+}
+
+.gallery-experts > img {
+    background: transparent;
+    width: 78px;
+    height: 78px;
+}
+
+.gallery-experts-info h6 {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 8.8px;
+    letter-spacing: 0.57px;
+    color: white;
+    background: transparent;
+
+}
+
+.gallery-experts-info h5{
+    font-family: "new-spirit",serif;
+    font-size: 20.8px;
+    letter-spacing: -0.208px;
+    background: transparent;
+    color: var(--primary-color);
+}
+
+

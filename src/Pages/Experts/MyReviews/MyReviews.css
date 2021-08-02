@@ -1,0 +1,88 @@
+.myReviews-container{
+    background: linear-gradient(white 65%, var(--primary-color) 35%);
+    width: 100% !important;
+}
+
+.myReviews-container > h1{
+    color: var(--primary-color);
+    margin-bottom: 59px;
+}
+
+.myReviews-container > .swiper-container {
+    height: 663px;
+    margin-left: 65px !important;
+    margin-right: 65px !important;
+    background: transparent;
+}
+
+.swiper-wrapper{
+    background: transparent;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.myReviewsSlide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;   
+    width: 370px; 
+    height: 556px;
+}
+
+.myReviewsSlide img {
+    display: block;
+    width: 370px !important;
+    height: 440px;
+    background: transparent;
+}
+
+.myReviewsSlide img:hover{
+    transform: scale(1);
+}
+
+.myReviews-headings {
+    background-color: var(--primary-green);
+    width: 370px;
+    text-align: start;
+    padding-left: 20.8px;
+}
+
+.myReviews-headings > h3{
+    font-weight: 600;
+    font-size: 20.8px;
+    background: transparent;
+    color: var(--primary-color);
+    margin-top: 25px;
+    margin-bottom: 14.5px;
+    letter-spacing:0;
+    line-height: 1.5;
+    font-family: "new-spirit",serif;
+}
+
+.myReviews-headings > h2{
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: white;
+    margin-bottom: 21px !important;
+    line-height: 1.5;
+}
+

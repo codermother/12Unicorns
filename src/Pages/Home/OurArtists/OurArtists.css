@@ -1,0 +1,204 @@
+.ourArtists-container {
+  background: rgb(246, 240, 234);
+  padding-top: 44px;
+  height: 100%;
+  padding-bottom: 44px;
+}
+
+.ourArtists-container > h1 {
+  background-color: rgb(246, 240, 234);
+  font-size: 57px;
+  font-family: "new-spirit", serif;
+  margin-bottom: 29px;
+  color: rgb(47, 66, 63) ;
+}
+
+ .mySwiper-ourArtists{
+  height: 80% !important;
+  background-color: rgb(246, 240, 234) !important;
+} 
+
+.ourArtists-slide {
+  background-color: rgb(246, 240, 234) !important;
+  display: flex;
+  flex-direction: column;
+  height: 1367px;
+  position: relative;
+  width: 100% !important;
+}
+
+.ourArtists-slide > img {
+  position: absolute;
+  width: 965px !important;
+  height: 590px !important;
+  object-fit: cover !important;
+  top:0px;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 50em / 50em;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  padding: 25px;
+}
+
+.ourArtists-slide > img:hover {
+  transform: scale(1) !important;
+}
+
+.ourArtists-content {
+  margin-top: 420px;
+  background-color: rgb(47, 66, 63);
+  height:900px;
+  width: 100%;
+}
+
+.ourArtists-content > p {
+  margin-top: 7.2px;
+  font-weight: 600;
+  background-color: rgb(47, 66, 63);
+  color: white;
+}
+
+.ourArtists-content > h5 {
+  padding-top: 200px;
+  background:transparent;
+  color: white;
+  font-weight: 900;
+}
+
+.ourArtists-content > h3 {
+  background-color: rgb(47, 66, 63);
+  color: var(--primary-color);
+  margin-top: 9px;
+}
+
+.ourArtists-border {
+  background-color: var(--primary-color);
+  width:268px;
+  height: 2px;
+  margin: 15px auto 45px auto;
+}
+
+.ourArtists-content-bottom {
+  border : 2px solid var(--primary-color);
+  border-radius: 11em / 11em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  padding:22px;
+  display: flex;
+  background-color: rgb(47, 66, 63);
+  margin-left: 25%;
+  padding-right: 100px;
+}
+
+.ourArtists-content-bottom > img {
+  width: 28% !important;
+  object-fit: contain !important;
+  background-color: transparent;
+}
+
+.ourArtists-content-bottom > img :hover {
+  transform: 0;
+}
+
+.ourArtists-content-bottom-heading {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: auto;
+  margin-left: 100px;
+  text-align: start;
+  position: relative;
+}
+
+.ourArtists-content-bottom-heading > p{
+  background: transparent;
+  color: white;
+  font-size: 25px;
+
+  margin-top: 49px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.ourArtists-content-bottom-heading > h6 {
+  background: transparent;
+  color: var(--primary-color);
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.mySwiper-ourArtists > .swiper-pagination-bullets {
+  background: transparent;
+  padding-bottom: 50px;
+}
+
+.mySwiper-ourArtists > .swiper-button-prev {
+  background: url("../../../Photos/Arrows/prev.png") no-repeat center center;
+  background-size: 25px;
+  color: var(--lightgray)  !important;
+  padding-right: 35px !important;
+  position: absolute;
+  left: 66px;
+} 
+
+.mySwiper-ourArtists > .swiper-button-next {
+  background: url("../../../Photos/Arrows/next.png") no-repeat center center;
+  background-size: 25px;
+  color: var(--lightgray)  !important;
+  padding-left: 35px !important;
+  position: absolute;
+  right: 66px;
+} 
+
+.mySwiper-ourArtists > .swiper-button-prev::after, .mySwiper-ourArtists > .swiper-button-next::after{
+  content: "" !important;
+}
+
+.mySwiper-ourArtists > .swiper-button-next::after{
+  content: "" !important;
+}
+
+.ourArtists-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Brandon Grotesque Bold', sans-serif;
+  font-weight: bold;
+  background: var(--primary-color);
+  padding: 14px 27px 14px 27px;
+  text-decoration: none;
+  margin-top: 52px;
+  margin-bottom: 50px;
+  border: 0;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.ourArtists-arrow {
+  color: white;
+  background:transparent;
+  margin-left: 5px;
+  position: relative;
+  bottom: -1px;
+  font-size: large;
+}
+
+.ourArtists-btn:hover {
+  background-color: rgb(222, 173, 104);
+  text-decoration: none;
+  color: white;
+}
+
+.ourArtists-btn:hover .slider-arrow {
+  background-color: rgb(222, 173, 104);
+}
+
+.ourArtists-content-bottom-heading > .quotes-left{
+  top: 30px;
+  left: -30px;
+}

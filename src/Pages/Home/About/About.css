@@ -1,0 +1,67 @@
+.about-container {
+   margin: 118px 132px 64px 132px; 
+   padding: 0;
+   width: 100%;
+}
+
+.about-container > h1 {
+    color: var(--primary-color);
+    margin-bottom: 36px;
+}
+
+.about-container > p {
+    color: var(--lightgray);
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.col-about > img{
+    width: 100%;
+}
+
+.col-about > h4{
+    color: var(--primary-color);
+    margin-top: 17px;
+    font-family: "new-spirit",serif; 
+    font-weight: regular;
+    font-size: 32px;
+}
+
+.col-about > p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 300;
+    font-size: 25.6px;
+    letter-spacing: 0.512px;
+    line-height: 28.8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: var(--lightgray);
+}
+
+.about-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: bold;
+    background: rgb(47, 66, 63);
+    padding: 14px 27px 14px 27px;
+    text-decoration: none;
+    margin-top: 52px;
+    margin-bottom: 88px;
+    margin-left: 32%;
+    border: 0;
+    letter-spacing: 1.6px;
+  }
+  
+.about-btn:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.about-btn:hover .slider-arrow {
+    color: var(--primary-color);
+}

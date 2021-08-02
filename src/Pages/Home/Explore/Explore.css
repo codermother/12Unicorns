@@ -1,0 +1,61 @@
+.explore-container{
+    margin-top: 71px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.explore-container > h1 {
+    color: var(--primary-color);
+    margin-bottom: 25.6px;
+}
+
+.explore-container > h2 {
+    color: rgb(112, 112, 112);
+    font-size: 43.2px;
+    font-family: "new-spirit", serif;
+    line-height: 63px;
+    letter-spacing: -0.54px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+
+.nav-explore {
+   margin-bottom: 55px; 
+   justify-content: space-between;   
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.08px; 
+    line-height: 30px;
+    color: var(--lightgray);
+    padding: 0;
+}
+
+.explore-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-green);
+    padding: 14px 27px 14px 27px;
+    text-decoration: none;
+    margin-bottom: 150px;
+    border: 0;
+    letter-spacing: 1.6px;
+    margin-left: 10px;
+  }
+  
+.explore-btn:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.explore-btn:hover .slider-arrow {
+    color: var(--primary-color);
+}

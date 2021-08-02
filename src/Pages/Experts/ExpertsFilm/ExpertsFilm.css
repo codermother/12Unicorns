@@ -1,0 +1,22 @@
+.experts-film-container{
+    background-color: #F6F0EA;
+    height: 558px;
+    margin: 32px 132px 32px 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.experts-film-container > h5 {
+    color: var(--primary-color);
+    align-content: flex-end !important;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.expertsFilm-arrow {
+   margin-left: 50%;
+   font-size: xx-large;
+   color: rgb(112, 112 ,112, 0.3);
+}

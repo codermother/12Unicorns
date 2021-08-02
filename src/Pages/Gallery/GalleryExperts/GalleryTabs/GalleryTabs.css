@@ -1,0 +1,49 @@
+.gallery-tabs-container {
+    margin: 39px 135px 210px 135px;
+}
+
+.gallery-tabs-top > p {
+    font-family: "new-spirit",serif;
+    font-size: 32px;
+    color: var(--lightgray);
+    letter-spacing: -0.208px;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.gallery-tabs {
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid #D8D8D8;
+    margin-bottom: 45.6px !important;
+}
+
+.gallery-tabs-check > label{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.gallery-tab-btn {
+    margin-left: 0;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    color: var(--lightgray);
+    padding-bottom: 12.8px;
+}
+
+.gallery-tab-btn:hover{
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.gallery-tabs .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--primary-color);
+}

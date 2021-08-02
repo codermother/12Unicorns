@@ -1,0 +1,60 @@
+@import "./fonts.css";
+
+*{
+  margin: 0;
+  background-color: #fff;
+}
+
+:root {
+  --primary-color: #C49955;
+  --primary-color-light : rgb(248, 209, 154);
+  --primary-color-hover : rgb(222, 173, 104);
+  --lightgray: rgb(112, 112, 112);
+  --primary-green : rgb(47, 66, 63);
+  --primary-green-light : #4F6F6A;
+  --primary-color-soft: #F6F0EA;
+  --animation-curve: cubic-bezier(1,0,0,1);
+}
+
+.quotes-left{
+  color: var(--primary-color);
+  display: inline-block;
+  position: absolute;
+  font-family: "new-spirit",serif;
+  font-weight: normal;
+  font-size: 57.6px;
+  letter-spacing: -0.576px;
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.quotes-right{
+  color: var(--primary-color);
+  display: inline-block;
+  position: absolute;
+  font-family: "new-spirit",serif;
+  font-weight: normal;
+  font-size: 57.6px;
+  letter-spacing: -0.576px;
+  background: transparent;
+  color: var(--primary-color);
+
+}
+
+body {
+  margin: 0;
+  font-family: "new-spirit",serif, "brandon-grotesque",sans-serif;; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 100;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home .navbar-section{
+  position: sticky;
+}

@@ -1,0 +1,32 @@
+.checkbox-row {
+    padding: 0;
+}
+
+.explore-form-check{
+    font-size: 20px;
+    color: var(--lightgray);
+    font-family: "brandon-grotesque",sans-serif;
+    margin-bottom: 90px;
+    font-weight: bold;
+    letter-spacing: 2.08px;
+}
+
+.form-check .form-check-input {
+    border-radius: 50%;
+    margin-top: 5px;
+    font-size: large;
+    border-width:3px;
+}
+
+.signUp-formCheck > .form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color);
+}
+
+.form-check-wrapper {
+    justify-content: space-between !important;
+}
+
+.form-check {
+    justify-content: center;
+}

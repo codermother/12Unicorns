@@ -1,0 +1,46 @@
+.experts-comment-container{
+    padding: 0 96.4px 79.5px 199.2px;
+    background: linear-gradient(white 40%, #F6F0EA 0
+    );
+}
+
+.experts-comment-left img{
+    width: 346px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding:20px;
+    background: transparent;
+}
+
+.experts-comment-right{
+    padding-left: 64px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.experts-comment-right p{
+    margin-top: 20px;
+    color: var(--lightgray);
+}
+
+.experts-comment-right > h5{
+    margin-top: 36px;
+    margin-bottom: 8.8px;
+    background: transparent;
+}
+
+.experts-comment-right > h6{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.experts-comment-right > .quotes-left{
+    top: 0;
+    left: 30px;
+  }
+  
+ 

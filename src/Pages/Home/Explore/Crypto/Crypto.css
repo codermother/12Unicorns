@@ -1,0 +1,212 @@
+.explore-row {
+    --bs-gutter-x: 0rem;
+    justify-content: space-between;
+}
+
+.explore-row-3{
+    height: 650px;
+}
+
+.explore-expert-items > img {
+    width: 348.8px;
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.explore-expert-items-round > img:hover {
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    width: 348.8px;
+    padding: 30px;
+}
+
+.explore-expert-items-square > img:hover {
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    width: 348.8px;
+    padding: 30px;
+}
+
+.explore-expert-items {
+    position: relative;
+}
+
+.explore-expert-items > h5 {
+    color: var(--primary-color);
+    position: absolute;
+    left: 32%;
+    bottom: 30%;
+    background: transparent;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+    width: 150px;
+}
+
+
+.explore-row-2{
+    height: 480px;
+}
+
+.lecture-container {
+    background: rgb(252, 250, 248);
+    height: 440px;
+    position: relative;
+    margin-top: -65px;
+    width: 347px !important;
+}
+
+.lecture-container > h5{
+    color: var(--primary-color);
+    padding-top: 25px;
+    margin-bottom: 11px;
+}
+
+.lecture {
+    background: white;
+    margin-left: 23px;
+    margin-right: 23px;
+    padding-bottom: 26px;
+}
+
+.lecture-wrap {
+    position: relative;
+}
+
+.lecture > h3 {
+    color: var(--primary-color);
+    padding-top: 20px;
+}
+
+.lecture > hr {
+    width: 100px;
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-left: 37%;
+}
+
+.lecture > p {
+    margin-top: 14.5px;
+    padding-right: 17px;
+    padding-left: 17px;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 300;
+    font-size: 22.4px;
+    letter-spacing: 0.44px;
+    line-height:27.2px;
+    margin-bottom: 18px;
+}
+
+.moreInfo {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 16px;
+    margin-top: 18px;
+    letter-spacing: 2px;
+    background: transparent;
+}
+
+.moreInfo:hover {
+    color: var(--lightgray);
+}
+
+.crypto-5-container {
+    margin-top: 40px;
+}
+
+.crypto-5 {
+    background-color: rgb(252, 250, 248);;
+    padding-bottom: 17.6px;
+    width: 350px;
+}
+
+.crypto-5 > img {
+    background: transparent;
+    margin-top: 23.2px;
+    width: 103px;
+   
+}
+
+.crypto-5 > h3 {
+    color: var(--primary-color);
+    margin-top: 18px;
+    margin-bottom: 49px;
+    width: 250px;
+}
+
+.crypto-6-container{
+    position: relative;
+    top: -94px;
+}
+
+.crypto-7-container{
+    position: relative;
+    top: -51px;
+}
+
+.crypto-6-wrapper > img, .crypto-7-wrapper > img{
+    width: 344px !important;
+}
+
+.crypto-6, .crypto-7 {
+    background-color: var(--primary-green) !important;
+    width: 344px !important;
+    padding: 13px 0 13px 19px; 
+    position: relative;
+    top:-44px;
+}
+
+.crypto-6 > h3, .crypto-7 > h3 {
+    color: white;
+    text-align: left; 
+}
+
+.crypto-6 > h2, .crypto-7 > h2 {
+    background: transparent;
+    color: var(--primary-color);
+    font-size: 31px;
+    letter-spacing: -0.312px;
+    text-align: left;
+    font-family: "new-spirit",serif;;
+}
+
+.crypto-8 > img{
+    width: 410px !important;
+    padding: 30px !important;
+    border: 1px solid white !important;
+}
+
+.crypto-8 > img:hover{
+    border: 1px solid var(--primary-color) !important;
+}
+
+.crypto-8 > .explore8:hover {
+    border: 1px solid var(--primary-color);
+    padding:30px;
+    box-sizing: border-box;
+}
+
+.crypto-8 > .approved {
+    position: relative;
+    width: 225px !important;
+    top: -130px;
+    right: -170px;
+    z-index: 1;
+    background: transparent;
+    border: none !important;
+}
+
+.crypto-8 > .approved:hover{
+    border: none !important;
+}
+
+.crypto-9 >img {
+    margin-top: 10%;
+}
+
+.crypto-9 >h5 {
+    bottom: 53%;
+}
+

@@ -1,0 +1,134 @@
+.myArtworks-heading{
+    position: relative;
+    margin-bottom:53px;
+}
+
+.myArtworks-heading > .heading-line {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    height: 3px;
+    
+}
+.myArtworks-heading > span {
+    background: #fff;
+    margin-left: 120px;
+    padding: 0 41px;
+    position: relative;
+    z-index: 1;
+}
+
+.myartWorks-container {
+    padding: 0;
+    margin: 0 135px 115.4px 135px
+}
+
+.myArtworks-left > img{
+    border: 1px solid var(--primary-color);
+    padding:26.4px;
+    width: 472px;
+    height: 601.6px;
+}
+
+.myArtworks-right{
+    padding-left: 124px !important;
+}
+
+.myArtworks-right h3 {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-bottom: 11.84px;
+}
+
+.myArtworks-artist{
+    margin-top: 19.6px;
+    margin-bottom: 38px;
+}
+
+.myArtworks-artist > img {
+    width: 54.4px;
+    height: 54.4px;
+    object-fit: cover;
+    margin-right: 18.4px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.myArtworks-artistInformation > h6 {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 12.8px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-bottom: 4.48px;
+    margin-top: 4.48px;
+}
+
+.myArtworks-artistInformation {
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    letter-spacing: 0px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-bottom: 4.48px;
+
+}
+
+.myArtworks-right > h6{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 12.8px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-bottom: 4.48px;
+    border-bottom: 2px solid var(--primary-color);
+    width: 30px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.myArtworks-right > p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    color: var(--lightgray);
+    font-weight: 400;
+}
+
+.myArtworks-price{
+    font-family: "new-spirit",serif !important;
+    font-size: 32px !important;
+
+    color: var(--lightgray);
+}
+
+.artists-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: 900;
+    background: var(--primary-color);
+    padding: 8.8px 20px 8.8px 20px;
+    text-decoration: none;
+    margin-top: 33px;
+    margin-bottom: 50px;
+    border: 0;
+    letter-spacing: 1.6px;
+}
+  
+
+.artists-btn:hover {
+    background-color: var(--primary-color-light);
+    text-decoration: none;
+}
+

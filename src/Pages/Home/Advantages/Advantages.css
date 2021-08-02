@@ -1,0 +1,80 @@
+.advantages-section > p {
+    margin-top: 39px;
+    padding: 40px 135px 40px 135px;
+    text-align: center;
+}
+
+.advantages-container {
+    margin-left: 37.6px;
+    margin-right: 37.6px;
+    padding: 64px 65px 113px 65px;
+    justify-content: center;
+    background-color: #FBF8F5;
+}
+
+.advantages-container > h1 {
+    color: var(--primary-green);
+    font-size: 57px;
+    font-family: new-spirit, serif;
+    margin-bottom: 84px;
+    background-color: #FBF8F5;
+    background: transparent;
+}
+
+.advantages-col {
+    background-color: #FBF8F5 ;
+    width: 300px !important;
+    padding: 5px;
+}
+
+.advantages-col > img {
+    width: 76px;
+    height: 76px;
+    background: transparent;
+}
+
+.advantages {
+    margin-top: 45px;
+    color: var(--primary-color);
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.08px;
+    border-right: 1.8px solid var(--primary-color);
+    background-color: #FBF8F5 ;
+    font-weight: bold;
+}
+
+.advantages-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-green);
+    padding: 14px 27px 14px 27px;
+    text-decoration: none;
+    margin-top: 52px;
+    margin-bottom: 50px;
+    border: 0;
+    letter-spacing: 1.6px;
+    margin-left: 34%;
+  }
+  
+.star-line {
+    background-color: var(--primary-color);
+    width: 529px;
+    height: 2px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.advantages-btn:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.advantages-btn:hover .slider-arrow {
+    color: var(--primary-color);
+}

@@ -1,0 +1,105 @@
+.artists-information-container{
+    margin-left: 135px !important;
+    margin-right: 135px !important;
+}
+
+.artists-information{
+    margin-top: 49.6px;
+}
+
+.artists-information-left > h1{
+    font-size: 56px;
+}
+
+.artists-information-left > h3 {
+    margin-top: 21.6px;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+.artists-information-left > p{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    color: var(--lightgray);
+    margin-bottom: 54.4px;
+}
+
+.artists-information-right{
+    margin-top: 21.6px;
+    padding-left: 130px;
+}
+
+.artists-information-right > h3 {
+   color: var(--primary-color);
+   letter-spacing: 1px;
+   margin-bottom: 32.8px; 
+}
+
+.recent-exhibitions {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    color: var(--lightgray);
+}
+
+.recent-exhibitions-date{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-right: 38.4px;
+} 
+
+.recent-exhibitons-top {
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 30.4px;
+}
+
+.recent-exhibitons-bottom{
+    margin-top: 40.8px;
+}
+
+.artists-information-socialIcons{
+    justify-content: flex-end;
+    margin-top: -30px;
+    height: 35px;
+}
+
+
+.artists-icon-facebook{
+    padding-left: 35%;
+    font-size: large;
+    padding-top: 25%;
+    background-color:#4F6F6A;
+    width: 32px;
+    height: 32px;
+    color:white;
+    border-radius: 10%;
+}
+
+.artists-icon{
+    font-size: large;
+    padding-top: 25%;
+    padding-left: 23%;
+    background-color:#4F6F6A;
+    width: 32px;
+    height: 32px;
+    color:white;
+    border-radius: 10%;
+}
+
+.artists-icon-facebook:hover{
+    background-color: var(--primary-color);
+}
+
+.artists-icon:hover{
+    background-color: var(--primary-color);
+}
+
+.artists-social {
+    margin-left: 8.8px;
+}

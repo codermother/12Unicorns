@@ -1,0 +1,32 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Deploy
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Bucket actions
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm i
+      - run: npm run build
+        env:
+          CI: false
+      - name: Publish
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./build/*
+          host: ${{ secrets.SSH_HOST }}
+          remote: ${{ secrets.SSH_DIR }}
+          port: ${{ secrets.SSH_PORT }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}

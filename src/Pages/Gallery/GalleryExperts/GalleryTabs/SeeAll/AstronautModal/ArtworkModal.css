@@ -1,0 +1,128 @@
+.artwork-modal{
+    background: transparent;
+}
+
+.artwork-modal-container{
+    min-height: 0px;
+    width: 1348px;
+}
+
+.artwork-modal-content{
+    border: none;
+}
+
+.artwork-modal > .modal-dialog{
+    max-width: 1348px !important;
+}
+
+.artwork-modal-content > .modal-body{
+    margin: 0 ;
+}
+
+.artwork-modal-body{
+    margin-top: 22px;
+    padding-top: 10px !important;
+    height: 1355px; 
+}
+
+.artwork-modal-body > .modal-form-title{
+    margin-top: 30px;
+}
+
+.artwork-close{
+    float: right;
+    padding-right:30px
+}
+
+.artworkModal-top{
+    margin: 52px 192px 29px 192px;
+    width: 964px;
+    height: 213px;
+}
+
+.artworkModal-top h6 {
+    color: var(--lightgray);
+    margin-bottom: 19.2px;
+}
+
+.artworkModal-top > p {
+    margin-top: 20.8px;
+    margin-bottom: 0;
+}
+
+.artworkTop-border{
+    height: 1px;
+    width: 136.8px;
+    background-color: var(--primary-color);
+}
+
+.modal-footer{
+    background-color: var(--primary-green);
+    height: 105px;
+}
+
+.artworkModal-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-color);
+    padding: 12px 38px 12px 25px !important;
+    text-decoration: none;
+    border: 0;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    position: relative;
+    margin-right: 20%;
+    margin-left: 25%;
+}
+
+.artworkModal-btn .slider-arrow{
+    font-size: smaller;
+    position: absolute;
+    top: 37%;
+}
+
+.artworkModal-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color-light);
+}
+
+.artworkModal-btn:hover .slider-arrow {
+    background-color: var(--primary-green);
+}
+
+.buyArtwork-footer{
+    justify-content: space-between;
+    padding-right: 67.2px;
+    padding-left: 67.2px;
+}
+
+.expertReview-arrow{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.expertReview-arrow:hover {
+    color: var(--primary-color);
+}
+
+.artworkStory-arrow{
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.artwork-right-arrow{
+    background: transparent;
+}
+
+.artworkStory-arrow:hover{
+    color: var(--primary-color) !important;
+}

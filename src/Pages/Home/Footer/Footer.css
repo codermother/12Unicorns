@@ -1,0 +1,95 @@
+.footer-container{
+    background-color: var(--primary-green);
+}
+
+.footer {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left: 161px;
+    margin-right: 161px;
+    background:transparent;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer-col {
+    background-color: var(--primary-green);
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.footer-items{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    background-color: var(--primary-green);
+}
+
+.footer-contact {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    background-color: var(--primary-green);
+}
+
+.footer-contact > p {
+    background-color: var(--primary-green);
+}
+
+.footer-items:hover{
+    color: var(--primary-color) !important;
+}
+
+.footer-icon {
+    background-color: var(--primary-green);
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.footer-social {
+    background-color: var(--primary-green);
+    color: var(--primary-color);
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-icon-facebook{
+    padding-left: 10%;
+    font-size: large;
+    padding-top: 20%;
+    background-color:var(--primary-color);
+    width: 32px;
+    height: 32px;
+    color:white;
+    border-radius: 10%;
+}
+
+.footer-social-icon{
+    font-size: large;
+    padding-top: 20%;
+    background-color:var(--primary-color);
+    width: 32px;
+    height: 32px;
+    color:white;
+    border-radius: 10%;
+}
+
+.footer-icon-facebook:hover{
+    background-color: var(--primary-color);
+}
+
+.footer-icon:hover{
+    background-color: var(--primary-color);
+}
+
+.footer-social {
+    margin-left: 8.8px;
+}

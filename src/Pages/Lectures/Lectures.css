@@ -1,0 +1,70 @@
+.lectures-container{
+    margin-bottom: 197.6px;
+}
+
+.lectures-container .row{
+    --bs-gutter-x: 0rem;
+    margin-bottom: 43.2px;
+}
+
+.lectures-information{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.lectures-information > h6{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-top: 57.6px;
+}
+
+.lectures-information h2{
+    font-family: "new-spirit",serif;
+    font-size: 32px;
+    background: transparent;
+    color: var(--primary-color);
+    margin-bottom: 14.4px;
+    margin-top: 13.6px;
+}
+
+.lectures-information > p{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    background: transparent;
+    color: var(--lightgray);
+    margin: 0;
+}
+
+.lectures-empty p{
+    background-color: #F6F0EA;
+    height: 424px;
+}
+
+.readMore{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10.4px;
+}
+
+.readMore:hover{
+    color: var(--primary-color);
+}
+
+.lectures-date{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 300;
+    font-size: 17.6px;
+    background: transparent;
+    color: rgba(51, 51, 51, 50%) !important;
+    margin-top: 17.6px !important;
+}

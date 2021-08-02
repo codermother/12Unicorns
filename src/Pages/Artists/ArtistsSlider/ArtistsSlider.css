@@ -1,0 +1,112 @@
+.artists-container{
+    border-bottom: 3px solid var(--primary-color);
+    position: relative;
+}
+.artists-swiper .swiper-wrapper{
+    margin-bottom: 31.6px;
+    position: relative;
+}
+
+.artists-swiper > .swiper-slide{
+    height: 590px;
+}
+
+.artists-slider img{
+    height: 590px;
+}
+
+.artists-swiper-bottom {
+    margin-left: 135.2px;
+    margin-bottom: 27.6px;
+}
+
+.artist-slider-mini {
+    width: 54.4px !important;
+
+}
+
+.artist-slider-mini > img{
+    width: 54.4px;
+    height: 54.4px;
+    filter: opacity(0.5);
+}
+
+.artists-swiper > .swiper-pagination-fraction{
+    position: absolute;
+    bottom: 7%;
+    width: unset;
+    right: -93%;
+    background: transparent;
+    color: white;
+    z-index: 3;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 12.8px;
+}
+
+.swiper-pagination-current{
+    background: transparent;
+}
+
+.swiper-pagination-total{
+    background: transparent;
+}
+
+.artist-slider-mini.swiper-slide-thumb-active > img{
+    filter: opacity(1) !important;
+    padding-bottom: 0;
+    border-bottom: 2px solid var(--primary-color);
+} 
+
+.artists-content {
+    background-color: var(--primary-green);
+    padding: 24px 25.6px 32px 25.6px;
+    width: 372px;
+    position: absolute;
+    bottom: 0;
+    right: 132.4px;
+    z-index: 1;
+}
+
+.artists-content > h3 {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 12.8px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    margin-bottom: 18px;
+}
+
+.artists-content > p {
+    color: white;
+}
+
+.artists-arrow {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    padding-top: 19.6px;
+}
+
+.artists-arrow > span {
+    font-size: large;
+    background: transparent;
+}
+
+.artists-arrow:hover{
+    color: var(--primary-color);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.artists-approved{
+    position: absolute;
+    bottom: 278px;
+    z-index: 2;
+    background: transparent;
+    right: 46px;
+    width: 175px;
+    transform: rotate(100deg);
+
+}

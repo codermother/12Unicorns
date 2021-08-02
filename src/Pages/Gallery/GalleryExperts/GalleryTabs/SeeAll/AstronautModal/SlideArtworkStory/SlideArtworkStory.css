@@ -1,0 +1,53 @@
+.artworkStory-body{
+    margin: 0 62px 17px 84.32px;
+}
+
+.artworkStory-heading{
+    margin-bottom: 76.2px;
+}
+
+.artwork-story-left > img{
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    padding-right: -20px !important;
+    margin-bottom: 56.16px;
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.rectangle96{
+    width: 96px !important;
+    height: 96px !important;
+}
+
+.artwork-story-img{
+    background-color: rgba(112, 112,112, 0.12);
+    width: 340px !important;
+    height: 96px;
+    margin-bottom: 53px;
+}
+
+.artwork-story-text{
+    text-align: left !important;
+    margin-left: 25.44px;
+    padding-right: 20px;
+}
+
+.artwork-story-left-bottom{
+    margin-bottom: 52.88px;
+}
+
+.artwork-story-right{
+    text-align: left !important;
+    margin-bottom: 55.6px;
+}
+
+.artwork-story-headerLine{
+    width: 130px;
+    background-color: var(--primary-color);
+    height: 1px;
+    margin-top: 18.5px;
+    margin-bottom: 40px;
+}
+
+

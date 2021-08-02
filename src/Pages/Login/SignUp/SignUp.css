@@ -1,0 +1,89 @@
+.signUp-modal{
+    background: transparent;
+}
+
+.signUp-modal-container{
+    margin-top: 40px;
+    border: 1px solid var(--primary-color);
+    min-height: 0px;
+    width: 420px;
+}
+
+.signUp-modal-content{
+    border: none;
+}
+
+.signUp-modal > .modal-dialog{
+    max-width: 420px !important;
+}
+
+.signUp-modal-content > .modal-body{
+    margin: 15.12px 16px 71.76px 52px ;
+}
+
+.signUp-modal-body{
+    margin-top: 59px;
+    margin-right: 53.6px;
+}
+
+.signUp-modal > .modal-form-title{
+    margin-top: 35px;
+    margin-right: 30px;
+}
+
+.signUp-close{
+    float: right;
+}
+
+.signUp-formCheck label{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    font-weight: 400px !important;
+    color: var(--lightgray);
+    letter-spacing: 1px;
+    margin-bottom: 54px;
+}
+
+.signUp-form-group input{
+    border:none !important;
+}
+
+.signUp-formCheck > input{
+    border-radius: 0 !important;
+    border: none !important;
+    background-color: #F5F5F5 !important;
+}
+
+.signUp-modal-button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-color);
+    padding: 12px 38px 12px 25px !important;
+    text-decoration: none;
+    border: 0;
+    letter-spacing: 1.6px;
+    margin-left: 55%;
+    position: relative;
+
+}
+
+.signUp-modal-button .slider-arrow{
+    font-size: smaller;
+    position: absolute;
+    top: 37%;
+}
+
+.signUp-modal-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-green);
+}
+
+.signUp-modal-button:hover .slider-arrow {
+    background-color: var(--primary-green);
+}
+

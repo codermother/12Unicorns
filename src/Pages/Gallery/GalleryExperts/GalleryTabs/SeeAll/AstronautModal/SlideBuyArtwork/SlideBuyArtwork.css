@@ -1,0 +1,213 @@
+.buyArtwork-slider{
+    width: 100%;
+}
+
+.buyArtwork-section{
+    width: 100%;
+    margin-left: 1px;
+}
+
+.astronauts-styles{
+    margin: 0 60px 47px 69.6px;
+}
+
+.search-input:focus {
+    outline: none;
+  }
+  
+.buyArtwork-miniSlider > img{
+    width: 96px;
+    height: 96px;
+    opacity: 0.5;
+}
+
+.buyArtwork-miniSwiper{
+    position: relative;
+    height: 150px;
+}
+
+.buyArtwork-pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    color: var(--lightgray);
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.buyArtwork-container{
+    padding-left: 30px !important;
+}
+
+.buyArtwork-left {
+    padding: 20px 20px 17px 20px ;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.16);
+}
+
+.buyArtwork-left > img{
+    width: 424px;
+    height: 590px;
+    margin-bottom: 20px;
+    filter: opacity(1);
+}
+
+.art-icons {
+    margin-left:13.6px;
+    color: #B7B7B7;
+    font-size: larger;
+}
+
+.art-icons > .art-icon{
+    width: 28.8px;
+    height: 28.8px;
+}
+
+.art-icons p{
+    font-weight: 900;
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.buyArtwork-right{
+    text-align: left !important;
+    margin-top: 25px;
+}
+
+.buyArtwork-rightLine{
+    height: 2px;
+    background-color: var(--primary-color);
+    width: 130px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    
+}
+
+.dropdown-items {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    width: 555px;
+    margin-top: 16.5px;
+}
+
+.dropdown-item > img{
+    width: 28.8px;
+    height: 28.8px;
+    margin-right: 14.4px;
+}
+
+.dropdown-item > p{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 16px;
+    font-weight: 600 !important;
+    letter-spacing: 1.6px;
+    font-weight: 200;
+    color: #707070;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.buyArtwork-dropdown {
+    overflow-y: auto;
+    height: 390px;
+    margin-bottom: 20px;
+}
+
+.dropdown-menu{
+    margin-top: 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .7s ease-out !important;
+ 
+}
+
+.active-dropdown-menu{
+    height: auto;
+    overflow: unset;
+    display: block;
+    position: relative;
+    border: none;
+    margin: 0;
+    transition: all .7s ease-out !important;
+}
+
+.active-dropdown-menu p{
+    font-family:  "brandon-grotesque",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.208px;
+    background: transparent;
+    color: var(--lightgray);
+    margin-bottom: 0;
+}
+
+.dropdown-toggle-artwork{
+    justify-self: flex-end;
+    cursor: pointer;
+    color: var(--lightgray);
+ }
+
+ .active-dropdown-span{
+     transform: rotateZ(180deg);
+ }
+
+.dropdown-item:hover{
+    background-color: unset;
+}
+
+.buyArtwork-line{
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 25px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.buyArtwork-rightBottom > h3 {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--lightgray);
+}
+
+.buyArtwork-rightBottom p{
+    color: var(--lightgray);
+}
+
+.buyArtWork-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 50px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: white;
+    padding: 14px 18.4px 14px 18.4px;
+    text-decoration: none;
+    margin-top: 24px;
+    border: 0;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    border: 3px solid var(--primary-color);
+  }
+  
+  .buyArtWork-btn:hover {
+    background-color: rgb(222, 173, 104);
+    text-decoration: none;
+    color: white;
+  }
+  
+  .buyArtWork-btn:hover .slider-arrow {
+    background-color: rgb(222, 173, 104);
+  }
+  
+  .buyArtWork-btn > img{
+     width: 19.2px;
+     height: 19.2px;
+     margin-top: 2px;
+     background: transparent;
+  }
+

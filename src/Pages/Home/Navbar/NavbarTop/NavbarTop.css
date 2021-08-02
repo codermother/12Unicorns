@@ -1,0 +1,183 @@
+.navbar-top{
+    height: 53px;
+    background-color: var(--primary-green);
+    align-content: center;
+    display: flex;
+    padding-top: 8px;
+    padding-right: 47px;
+  justify-content: flex-end;
+}
+
+.navTop-text{
+    color: var(--primary-color);
+    width: 400px;
+    margin-top: 8px;
+}
+
+.navbarTop-social{
+    display: flex;
+    margin-left: 18.5%;
+}
+ 
+.navbar-social-icon{
+    margin-left: 8.8px;
+}
+
+.navbar-icon{
+  color:white;
+  background-color: var(--primary-green-light);
+  padding:10px;
+  border-radius: 50%;
+}
+
+/* Navbar Contact Modal Css */
+
+.navbar-modal{
+    background: transparent;
+    height: 800px; 
+}
+
+.navbar-modal-container{
+    margin-top: 40px;
+    border: 1px solid var(--primary-color);
+    min-height: 0px;
+    width: 713px;
+}
+
+.navbar-modal-content{
+    border: none;
+}
+
+.navbar-modal > .modal-dialog{
+    max-width: 736px !important;
+}
+
+.navbar-modal-content > .modal-body{
+    margin: 10.24px 15.8px 71.76px 42px ;
+}
+
+.navbar-modal-body{
+    margin-top: 22px;
+}
+
+.navbar-modal-body > .modal-form-title{
+    margin-top: 30px;
+}
+
+.navbar-close{
+    float: right
+}
+
+.navbar-modal-left{
+    width: 313px; 
+}
+
+.form-group {
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15.44px;
+}
+
+.form-group > label{
+    margin-bottom: 11px;
+}
+
+.form-group input{
+    background-color: #F5F5F5;
+    height: 50px;
+    width: 313.6px;
+}
+
+.form-group textarea{
+    background-color: #F5F5F5;
+    height: 100px;
+    width: 313.6px;
+}
+
+.navbar-modal-right{
+    margin-top: 32px;
+    margin-left: 45.36px;
+    margin: 32px 30px 0 45.36px
+}
+
+.navbar-modal-text{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    letter-spacing: 1.6px;
+    margin-bottom: 10.8px;
+}
+
+.navbar-modal-message{
+    margin-bottom: 34.4px;
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    letter-spacing: 1.6px;
+}
+
+.navbar-modal-contact{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar-modal-contact.fa-phone{
+    padding:7px;
+    margin-right: 5px;
+}
+
+.navbar-modal-contact.fa-comment-alt{
+    padding:8px;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+.navbar-modal-contact.fa-map-marker-alt {
+    padding:9px;
+    padding-top: 8px;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.navbar-modal-button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-color);
+    padding: 12px 38px 12px 25px !important;
+    text-decoration: none;
+    border: 0;
+    letter-spacing: 1.6px;
+    margin-left: 30%;
+    margin-top: 25px;
+    position: relative;
+
+}
+
+.navbar-modal-button .slider-arrow{
+    font-size: smaller;
+    position: absolute;
+    top: 37%;
+}
+
+.navbar-modal-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-green);
+}
+
+.navbar-modal-button:hover .slider-arrow {
+    background-color: var(--primary-green);
+}
+
+
+@media only screen and (min-width: 1200px){
+h4 {
+    font-size: 32px !important; 
+}
+}

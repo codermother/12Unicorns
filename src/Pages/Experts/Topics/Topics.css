@@ -1,0 +1,13 @@
+.topics-container {
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-bottom: 151px;
+}
+
+.topics-columns {
+    border-right : 1px solid var(--primary-color);
+    padding: 0 auto 0 auto;
+    line-height: 1.3;
+    color: var(--primary-color);
+    margin-bottom: 48px;
+}

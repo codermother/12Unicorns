@@ -1,0 +1,202 @@
+.gallery-tab-1 {
+    width: 274.4px;
+}
+
+.gallery-tab-1 > p {
+    height: 330px;
+    background-color: var(--primary-color-soft);
+}
+
+.gallery-tab-1 > h3 {
+    margin: 26.4px 8px 26.4px 8px;
+}
+
+.gallery-tab-1 > img {
+    margin-top:98px;
+    width: 232px;
+    transform: rotateZ(135deg);
+    transition-duration: 2.5s;
+    background: transparent;
+}
+
+.gallery-tab-1 > img:hover {
+    transform: rotateZ(-180deg);
+    transition-duration: 2.5s;
+}
+
+.gallery-tab-1 > .gallery-tab-more-details{
+    margin-left: 8px;
+}
+
+.gallery-tab-more-details > h6{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.gallery-tab-moreInfo {
+    font-weight: 600;
+}
+
+.gallery-tab-moreInfo:hover {
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.gallery-date > p{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17.6px;
+    background: transparent;
+    color: #33333380;
+}
+
+.gallery-tab-moreInfo {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.gallery-tab-2 {
+    width: 465.6px;
+    height: 641px;
+   
+}
+
+.gallery-tab-2 > p{
+    height: 641px;
+    background-color: var(--primary-color-soft);
+}
+
+.gallery-tab-2 > h3 {
+    margin: 37.6px 33.6px 29.6px 33.6px;
+    background: transparent;
+}
+
+.gallery-tab-2 > .gallery-tab-more-details{
+    margin-left: 33.6px;
+    margin-right: 33.6px;
+}
+
+.gallery-tab-3 {
+    width: 398.4px;
+   
+}
+
+.gallery-tab-3 > img{
+    width: 100%;
+    height: 537.6px;
+}
+
+.gallery-tab-3 > h3 {
+    margin: 28px 13.6px 28px 13.6px;
+}
+
+.gallery-tab-3 > .gallery-tab-more-details{
+    margin-right: 13.6px;
+    margin-left: 13.6px;
+}
+
+.gallery-tab-4 {
+    margin-top: 94px;
+    width: 750px;
+    margin-bottom: 96px;
+}
+
+.gallery-tab-4-content{
+    margin-left: 26.4px;
+    margin-right: 26.4px;
+ 
+}
+
+.gallery-tab-4-content > h3 {
+    margin-top: 37.6px;
+    margin-bottom: 28px;
+}
+
+.gallery-tab-4 > .photo{
+    height: 472px;
+    background-color: var(--primary-color-soft)
+}
+
+.gallery-tab-4-content > p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 18px;
+    background: transparent;
+    color: #33333380;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.gallery-tab-5 {
+    width: 400px !important;
+    padding-left: 0;
+}
+
+.gallery-tab-5-img {
+    width: 100%;
+    height: 565.6px;
+    background-color: var(--primary-color-soft);
+}
+
+.gallery-tab-5 > h3 {
+    margin: 37.6px 0 26.4px 15px;
+}
+
+.gallery-tab-5 > .gallery-tab-more-details{
+    margin-left: 15px;
+    margin-top: 9.6px;
+}
+
+.gallery-tab-6 {
+    width: 398.4px;
+    padding-right: 0;
+}
+
+.gallery-tab-6 > img{
+    width: 100%;
+}
+
+.gallery-tab-6 > h3 {
+    margin: 28px 13.6px 28px 13.6px;
+}
+
+.gallery-tab-6  > .gallery-tab-more-details {
+    margin-right: 13.6px;
+    margin-left: 13.6px;
+}
+
+.gallery-tab-8 {
+    width: 274.4px;
+    position: relative;
+    padding-left: 0;
+}
+   
+.gallery-tab-8 > p {
+    height: 475px;
+    background-color: var(--primary-color-soft);
+    padding-left: 0;
+}
+
+.gallery-tab-8 > h3 {
+    margin-left: 12px;
+    margin-top: 26.4px;
+    margin-bottom: 26.4px;
+}
+
+.gallery-tab-8 > img {
+    width: 232px;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    width: 167px;
+    height: 161px;
+    transform: rotate(30deg);
+    left: 160px
+}
+
+.gallery-tab-8 > .gallery-tab-more-details {
+    margin-left: 12px;
+}

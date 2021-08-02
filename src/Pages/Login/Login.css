@@ -1,0 +1,89 @@
+.loginPage-container{
+    margin-top: 8% !important;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 35px 45px 45px 45px !important;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.16);
+}
+
+.login-header{
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.login-header img{
+    width: 55px;
+    height: 55px;
+}
+
+.login-header h1{
+    font-size: 40px;
+    color: var(--primary-color);
+    padding-left: 10px;
+    font-weight: 900;
+    font-family: "brandon-grotesque",sans-serif;
+    letter-spacing: 1.2px;
+    background: transparent;
+    margin-top: 5px;
+}
+
+.login-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-weight: bold;
+    background: var(--primary-color);
+    padding: 14px 42% 14px 42%;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    text-decoration: none;
+}
+  
+.login-btn:hover {
+    background-color: rgb(222, 173, 104);
+    text-decoration: none;
+    color: white;
+}
+
+.login-forget {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.login-forget:hover {
+    color: var(--primary-color);
+}
+
+.signUp-btn{
+    text-decoration: none;
+    color: var(--primary-color); 
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.signUp-btn:hover{
+    color: var(--primary-color-light);
+}
+
+.form-control{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 16.6px;
+    background: transparent;
+    color: var(--lightgray);
+    letter-spacing: .72px;
+    font-weight: 400;
+}
